@@ -9,7 +9,7 @@ interface SocialBarProps {
 
 export const SocialBar: React.FC<SocialBarProps> = ({ socials }) => {
   return (
-    <div className="flex flex-wrap justify-center gap-4 mt-8 mb-10 animate-fade-in" style={{ animationDelay: '600ms' }}>
+    <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mt-8 mb-8 sm:mb-12 animate-fade-in" style={{ animationDelay: '600ms' }}>
       {socials.map((social, idx) => (
         <a
           key={idx}
@@ -18,14 +18,14 @@ export const SocialBar: React.FC<SocialBarProps> = ({ socials }) => {
           rel="noopener noreferrer"
           onClick={() => trackSocialClick(social.platform)}
           className="
-            p-3 rounded-full glass border-white/5 
-            text-gray-400 transition-all duration-300
-            hover:text-white hover:bg-white/10 hover:scale-110 hover:border-white/20
-            focus:outline-none focus:ring-2 focus:ring-white/20
+            group p-2.5 sm:p-3 rounded-full bg-brand-primary/40 border border-white/5 
+            text-brand-muted transition-all duration-300
+            hover:text-white hover:bg-brand-accent hover:border-brand-accent hover:shadow-[0_0_15px_-3px_rgba(37,99,235,0.4)] hover:-translate-y-1
+            active:scale-90
           "
           aria-label={social.platform}
         >
-          {getSocialIcon(social.platform, "w-5 h-5")}
+          {getSocialIcon(social.platform, "w-5 h-5 sm:w-6 sm:h-6")}
         </a>
       ))}
     </div>

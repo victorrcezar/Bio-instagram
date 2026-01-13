@@ -5,7 +5,7 @@ export const DATA: AppData = {
     name: "Victor Cézar",
     role: "Fundador @ UP! Company",
     bio: "A Estratégia por trás dos resultados",
-    avatarUrl: "https://static.wixstatic.com/media/1f17f3_8b4cfd83719948eab14bad0c14341caa~mv2.jpeg", // Victor Cézar
+    avatarUrl: "https://static.wixstatic.com/media/1f17f3_874a478729204462bc46950bb68323d9~mv2.jpg", // Victor Cézar
     logoUrl: "https://static.wixstatic.com/media/1f17f3_1e2b54d2fd894dd997c6cbc18e940576~mv2.png", // UP! Company Logo
   },
   links: [
@@ -23,7 +23,7 @@ export const DATA: AppData = {
       title: "Fale Conosco",
       subtitle: "WhatsApp Oficial: (27) 2180-1710",
       url: "https://wa.me/552721801710",
-      iconName: "MessageCircle",
+      iconName: "WhatsApp",
       type: LinkType.Standard
     },
     {

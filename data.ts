@@ -5,7 +5,7 @@ export const DATA: AppData = {
     name: "Victor Cézar",
     role: "Fundador @ UP! Company",
     bio: "A Estratégia por trás dos resultados",
-    avatarUrl: "https://static.wixstatic.com/media/1f17f3_874a478729204462bc46950bb68323d9~mv2.jpg", // Victor Cézar
+    avatarUrl: "https://static.wixstatic.com/media/1f17f3_dbd1f5ae06dc44b082a8883babf675b7~mv2.png", // Updated image
     logoUrl: "https://static.wixstatic.com/media/1f17f3_1e2b54d2fd894dd997c6cbc18e940576~mv2.png", // UP! Company Logo
   },
   links: [
